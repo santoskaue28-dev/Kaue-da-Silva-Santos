@@ -1,7 +1,35 @@
 :root {
-    --yinmn-blue: #26547cff;
-    --bright-pink-crayola: #ef476fff;
-    --sunglow: #ffd166ff;
-    --emerald: #06d6a0ff;
+    --azul: #26547cff;
+    --vermelho: #ef476fff;
+    --amarelo: #ffd166ff;
+    --verde: #06d6a0ff;
 
+}
+
+main{
+    margin: 20px 0;
+    text-align: center;
+    max-width: 90%;
+}
+
+button{
+    background-color: var(--vermelho);
+    font-size: 22px;
+    padding: 4px; 
+    border-radius: 10px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px black;
+} 
+button:hover{
+    background-color: var(--amarelo);
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.passo{
+    display: none;
+}
+.passo ativo{
+    display: block;
 }
